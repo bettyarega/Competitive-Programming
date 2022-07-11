@@ -7,9 +7,7 @@ def symmetric_difference(set_N,set_M):
 
 if __name__ == "__main__":
     M = int(input())
-    list_M = input().split()
-    set_M = set(map(int,list_M))
+    set_M = set(map(int,input().split()))
     N = int(input())
-    list_N = input().split()
-    set_N = set(map(int,list_N))
+    set_N = set(map(int,input().split()))
     symmetric_difference(set_N, set_M)
