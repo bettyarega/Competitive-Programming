@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def sort(self, nums: List[int]) -> List[int]:
         for i in range(len(nums)):
